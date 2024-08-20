@@ -128,5 +128,9 @@ BOARD_USES_METADATA_PARTITION := true
 # Platform
 TARGET_BOARD_PLATFORM := mt6878
 
+# SPL
+BOOT_SECURITY_PATCH := 2025-04-05
+VENDOR_SECURITY_PATCH := 2025-04-05
+
 # Inherit the proprietary files
 include vendor/lava/lxx521/BoardConfigVendor.mk
