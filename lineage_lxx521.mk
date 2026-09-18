@@ -13,8 +13,8 @@ $(call inherit-product, device/lava/lxx521/device.mk)
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_LXX521
-PRODUCT_DEVICE := LXX521
+PRODUCT_NAME := lineage_lxx521
+PRODUCT_DEVICE := lxx521
 PRODUCT_MANUFACTURER := lava
 PRODUCT_BRAND := LAVA
 PRODUCT_MODEL := LAVA LXX521
